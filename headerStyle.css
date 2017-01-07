@@ -1,0 +1,74 @@
+body{
+  background-color: #424A42;
+}
+
+#Logo{
+  font-family: 'Marck Script', cursive;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.FirstLetter{
+  color: #ffce2f;
+}
+#box{
+  background: #872934;
+    height: 153px;
+    border-radius: 49%;
+    margin-top: -125px;
+    margin-left: -9px;
+}
+
+#Logo2{
+  font-size: 38px;
+  color:#ffce2f;
+}
+
+@media (max-width: 990px) {
+  #box{
+    background: #872934;
+      height: 0;
+      border-radius: 0;
+      margin-top: 0;
+      margin-left: 0;
+  }
+  .navbar-brand br {
+    content: "";
+  }
+}
+
+@media (max-width: 599px) {
+  #vis{
+    visibility: hidden;
+  }
+
+  #Logo{
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 539px) {
+  #vis{
+    visibility: hidden;
+  }
+
+  #Logo{
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 375px) {
+  #vis{
+    visibility: hidden;
+  }
+
+  #Logo{
+    margin-top: -110px;
+  }
+}
+
+@media (min-width: 599px) {
+  #Logo2{
+    visibility: hidden;
+  }
+}
