@@ -24,7 +24,7 @@ body{
   color:#ffce2f;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   #box{
     background: #872934;
       height: 0;

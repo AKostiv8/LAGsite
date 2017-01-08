@@ -1,0 +1,156 @@
+#content{
+  margin-bottom: 200px;
+}
+
+.events{
+  list-style: none;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+}
+
+.evenText{
+  float: right;
+  padding-right: 140px;
+  padding-top: 7px;
+}
+
+@media(max-width: 1199px) {
+  .evenText{
+    float: right;
+    padding-right: 70px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 991px) {
+  .evenText{
+    float: right;
+    padding-right: 470px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 700px) {
+  .evenText{
+    float: right;
+    padding-right: 420px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 650px) {
+  .evenText{
+    float: right;
+    padding-right: 400px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 631px) {
+  .evenText{
+    float: right;
+    padding-right: 370px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 600px) {
+  .evenText{
+    float: right;
+    padding-right: 340px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 570px) {
+  .evenText{
+    float: right;
+    padding-right: 330px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 560px) {
+  .evenText{
+    float: right;
+    padding-right: 270px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 500px) {
+  .evenText{
+    float: right;
+    padding-right: 230px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 461px) {
+  .evenText{
+    float: right;
+    padding-right: 190px;
+    padding-top: 7px;
+  }
+}
+@media(max-width: 420px) {
+  .evenText{
+    float: right;
+    padding-right: 150px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 380px) {
+  .evenText{
+    float: right;
+    padding-right: 110px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 340px) {
+  .evenText{
+    float: right;
+    padding-right: 70px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 300px) {
+  .evenText{
+    float: right;
+    padding-right: 40px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 270px) {
+  .evenText{
+    float: right;
+    padding-right: 10px;
+    padding-top: 7px;
+  }
+}
+
+@media(max-width: 240px) {
+  .evenText{
+    float: right;
+    padding-right: 0;
+    padding-top: 7px;
+  }
+}
+#headColor{
+  color: #f4b408;
+  font-size: 50px;
+}
+
+.colorEmph{
+  color: #f4b408;
+  font-size: 18px;
+}
+
+.discription{
+  font-size: 23px;
+}
