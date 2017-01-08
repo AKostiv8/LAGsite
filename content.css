@@ -1,5 +1,27 @@
 #content{
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+  font-size: 16px;
+  color:rgb(198,202,203);
+}
+
+#decoration:after{
+    content: "ОГОЛОШЕННЯ";
+    position: absolute; left: 18px; top: 16px;
+    color: rgba(255,199,0,.5);
+}
+
+
+#decoration{
+  color: rgb(167,167,173);
+  font-size: 40px;
+}
+
+@media(max-width: 991px) {
+  #decoration:after{
+      content: "ОГОЛОШЕННЯ";
+      position: absolute; left: 18px; top: 4px;
+      color: rgba(255,199,0,.5);
+  }
 }
 
 .events{
@@ -147,10 +169,20 @@
 }
 
 .colorEmph{
-  color: #f4b408;
+  color: #F4B409;
   font-size: 18px;
 }
 
 .discription{
   font-size: 23px;
+}
+
+
+.shadow-border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0,0,0,.25)
 }
