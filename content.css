@@ -132,7 +132,7 @@
   }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 360px) {
   .evenText{
     float: right;
     padding-right: 70px;
