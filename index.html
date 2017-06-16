@@ -1,200 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="covers/logo.ico">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>LAG | MAIN</title>
 
-    <title>ЛАГ</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+  <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!" class="brown-text text-darken-4">Фото</a></li>
+      <li><a href="#!" class="brown-text text-darken-4">Відео</a></li>
+      <!--<li class="divider"></li>-->
+      <!--<li><a href="#!" class="brown-text text-darken-4">three</a></li>-->
+  </ul>
 
-    <!-- Style to Background -->
-    <link href="headerStyle.css" rel="stylesheet">
-    <link href="headerImage.css" rel="stylesheet">
-    <link href="footerStyle.css" rel="stylesheet">
-    <link href="content.css" rel="stylesheet">
+  <ul id="ForStudents" class="dropdown-content">
+    <li><a href="#!" class="brown-text text-darken-4">Розклад</a></li>
+    <li><a href="#!" class="brown-text text-darken-4">Radio_LAG</a></li>
+    <li><a href="#!" class="brown-text text-darken-4">Парламент</a></li>
+    <li><a href="#!" class="brown-text text-darken-4">Світ Гімназії</a></li>
+    <!--<li class="divider"></li>-->
+    <!--<li><a href="#!" class="brown-text text-darken-4">three</a></li>-->
+  </ul>
+  <div class="navbar-fixed">
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/dist_css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="dist/css/less/bootstrap.min.css" rel="stylesheet"> -->
+  <nav class="red darken-4" role="navigation">
+    <div class="nav-wrapper ">
+      <a id="logo-container" href="#" class="brand-logo white-text">ЛАГ</a>
+      <ul class="right hide-on-med-and-down white-text">
+        <li class="white-text active"><a href="#">Головна</a></li>
+        <li class="white-text"><a href="#">Новини</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="ForStudents">Учням<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="white-text"><a href="#">Вступникам</a></li>
+        <li class="white-text"><a href="#">Євроклуб</a></li>
+        <li class="white-text"><a href="#">Досягнення</a></li>
+        <li class="white-text"><a href="#">Вчителі</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Медіа<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="white-text"><a href="#">Випускники</a></li>
 
+    </ul>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]-->
-
-    <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- [if lt IE 9] -->
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
-
-    <!-- Style to Carousel -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-  <!-- Menu -->
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#" id="Logo"><span id="vis">
-          <span class="FirstLetter">Л</span>ьвівська<br> <span class="FirstLetter">а</span>кадемічна<br> <span class="FirstLetter">г</span>імназія
-        </span><div id="box"></div><div id="Logo2">ЛАГ</div></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Головна</a></li>
-          <li><a href="#about">Новини</a></li>
-          <li><a href="#contact">Галерея</a></li>
-          <li><a href="#contact">Історія</a></li>
-          <li><a href="#contact">Вчителі</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Розклад уроків <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Для Учнів</a></li>
-              <li><a href="#">Для Вчителів</a></li>
-              <!-- <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li> -->
-            </ul>
-          </li>
-        </ul>
-      </div>
+      <ul id="nav-mobile" class="side-nav">
+        <li class="active"><a href="#">Головна</a></li>
+        <li><a href="#">Новини</a></li>
+        <li><a href="#">Учням</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Розклад</a></li>
+        <li><a href="#!">Radio_LAG</a></li>
+        <li><a href="#!">Парламент</a></li>
+        <li><a href="#!">Світ Гімназії</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Вступникам</a></li>
+        <li><a href="#">Євроклуб</a></li>
+        <li><a href="#">Досягнення</a></li>
+        <li><a href="#">Вчителі</a></li>
+        <li><a href="#">Медіа</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Фото</a></li>
+        <li><a href="#!">Відео</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Випускники</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
-  <!-- Header Photo -->
-
-  <header class="site-header box box6 shadow6">
-    <div class="container">
-      <h1 class="hero-heading">
-      <!-- <span>Академічна гімназія</span><br>
-      <span>– то історичний пам’ятник Львова,</span> <br>
-       <span>і бути її учнем чи виховником – це висока історична відзнака </span> -->
-      </h1>
     </div>
-  </header>
 
-    <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="covers/karantun.png" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Headline</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Детальніше</a></p>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container" id="headerTextPosition">
+        <br><br>
+        <!--<h1 class="header center amber-text text-accent-4">HeadLine</h1>-->
+        <div class="row center">
+          <!--<h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>-->
+        </div>
+        <!-- <div class="row center">
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img  src="img/headerImg.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="distance">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m8">
+          <h3 class="brown-text text-darken-3 newsPosition ">Історія гімназії</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel est fringilla tortor sagittis
+              commodo eget dignissim odio. Ut fringilla justo id est eleifend, eu scelerisque orci ornare. Mauris
+              accumsan nisl sit amet diam convallis, non scelerisque enim imperdiet. Proin justo augue, auctor at
+              tortor vitae, rutrum malesuada ex. Aliquam sapien leo, pulvinar in lacus in, maximus eleifend erat.
+              Vivamus interdum non lorem eget malesuada. Nullam tincidunt, dolor et aliquet dapibus, mauris augue
+              iaculis ante, id mollis nisi erat eu felis. Sed nec volutpat ante, in mollis arcu. Nam a lorem eget
+              purus cursus gravida. In hac habitasse platea dictumst. Donec ut est interdum, sagittis urna ut,
+              lacinia ex.</p>
+          <p>
+            Nulla commodo suscipit iaculis. Suspendisse neque augue, molestie non augue non, elementum blandit mi.
+            Donec pulvinar ipsum vel ex aliquet consequat. Sed fermentum in urna sit amet ornare. Integer in odio a
+            diam euismod consectetur. Maecenas condimentum felis lectus. Maecenas finibus condimentum urna eget gravida.
+            Suspendisse vitae elit a risus condimentum tempus quis et purus. Integer tristique leo in risus mollis sodales.
+          </p>
+          <p>
+            Aenean aliquet tortor tellus. Nunc et vehicula risus, in facilisis libero. Sed eu porttitor erat. Nulla viverra
+            ultrices eros et scelerisque. Vestibulum pretium viverra ullamcorper. Sed at vestibulum erat. In eget enim et
+            est efficitur tristique et vel erat. Aenean tempus dolor nec odio tincidunt sagittis. Vivamus malesuada arcu
+            molestie nisi rhoncus blandit. Nullam eget vulputate nunc. In bibendum ex id erat ultrices, eget varius magna
+            rutrum. Integer eleifend nunc eu est dapibus, a imperdiet arcu tempus. Mauris nulla lacus, dictum vel nunc
+            aliquet, pulvinar ultrices velit. Donec sed felis vitae ante convallis dapibus. Duis non tempor augue. In hac
+            habitasse platea dictumst.
+          </p>
+        </div>
+      <div class="col s12 m4">
+        <h4 class="header yellow-text text-darken-4">Події</h4>
+        <div class="card horizontal">
+          <div class="card-image">
+            <!--<img src="http://lorempixel.com/100/190/nature/6">-->
+          </div>
+          <div class="card-stacked">
+            <div class="card-content events">
+              <p class="light-green-text">01/09/2017</p>
+              <p class="light-green-text text-darken-4">Перший Дзвінок</p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="second-slide" src="covers/new2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
+        <div class="card horizontal">
+          <div class="card-image">
+            <!--<img src="http://lorempixel.com/100/190/nature/6">-->
           </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="covers/new3.jpeg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>News</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <div class="card-stacked">
+            <div class="card-content events">
+              <p class="light-green-text">18/09/2017</p>
+              <p class="light-green-text text-darken-4">Мілаково</p>
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+</div>
+</div>
     </div>
 
-<div id="content" class= "container">
-  <div class="row">
-  <div class="col-md-8">
-    <h1 id="decoration">ОГОЛОШЕННЯ</h1>
-    <p>
-      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-      atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt
-      in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est
-      et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
-      id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-    </p>
-    <div class="shadow-border">
-    <img class="featurette-image img-responsive center-block" src="pexels-photo.jpg">
-  </div>
-  </div>
-  <div class="col-md-4">
-    <h1 id="headColor">Події</h1>
-    <ul class="events">
-      <li><img src="covers/stringEven1.png" width="45"><div class="evenText"><span class="colorEmph">04/04/2017</span> Подія 1<br><span class="discription">Bla-Bla-Bla-Bla</span></div></li>
-      <li><img src="covers/stringEven2.png" width="45"><div class="evenText"><span class="colorEmph">12/12/2017</span> Подія 2<br><span class="discription">Bla-Bla-Bla-Bla</span></div></li>
-      <li><img src="covers/stringEven2.png" width="45"><div class="evenText"><span class="colorEmph">11/12/2017</span> Подія 3<br><span class="discription">Bla-Bla-Bla-Bla</span></div></li>
-    </ul>
-  </div>
-</div>
-</div>
 
 
-      <footer class="footer-site">
-        <div class="container">
+
+
+  <footer id="contact" class="page-footer brown darken-4 scrollspy">
+      <div class="distance">
           <div class="row">
-            <div class="col-md-3" id = "lagLogo"><img src="covers/logo.gif">
-              <p id="reserved">&copy;2017 Львівська академічна гімназія</p>
+
+            <div class="col l3 s12">
+              <img src="img/logo.gif">
+              <p class="grey-text text-lighten-1">©2017 Львівська академічна гімназія</p>
             </div>
-             <div class="col-md-3" id="media">
-               <div class="bottom"><img class="right" src="covers/mailicon.png" width="45px">mail@mail.com</div>
-               <div class="bottom"><img class="right" src="covers/Telegramicon.png" width="45px"><a href="https://telegram.me/laglviv">Канал y Telegram</a></div>
-               <div class="bottom"><img class="right" src="covers/facebookicon.png" width="45px"><a href="https://www.facebook.com/lag.lviv/?fref=ts">Сторінка у Facebook</a></div>
-               <div class="bottom"><img class="right" src="covers/icon-phone.png" width="45px">+38 <b>(032)</b> 261-48-60</div>
-               <div class="bottom"><img class="right" src="covers/marker.png" width="45px">вул. С.Бандери 14 </div>
-             </div>
-            <div class="col-md-6" id="map"><iframe id="size" class="featurette-image img-responsive center-block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1286.705119807711!2d24.0126504259309!3d49.83474879583475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9fb78bfd9eb94d8!2z0JvRjNCy0L7QstGB0LrQsNGPINCw0LrQsNC00LXQvNC40YfQtdGB0LrQsNGPINCz0LjQvNC90LDQt9C40Y8!5e0!3m2!1sru!2sua!4v1483805112492" width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-           </div>
 
+            <div class="col l3 s12">
+              <h5 class="amber-text text-lighten-4">Контакти</h5>
+              <ul>
+
+                <li><a class="white-text" href="#!"><img class="media" src="img/icons/facebook.svg" width="30"><span class="media-txt">Facebook</span></a></li>
+                <li><a class="white-text" href="#!"><img class="media" src="img/icons/telegram.svg" width="30">Telegram</a></li>
+                <li><a class="white-text" href="#!"><img class="media" src="img/icons/phone.svg" width="30">+38 <b>(032)</b> 261-48-60 </a></li>
+                <li><a class="white-text" href="#!"><img class="media" src="img/icons/mail.svg" width="30">gimnazija_lag1@ukr.net</a></li>
+              </ul>
+            </div>
+
+  <form class="col l6 s12">
+    <div class="row">
+      <h5 class="amber-text text-lighten-4">Зворотній зв'язок</h5>
+      <div class="input-field col s6">
+        <i class="material-icons prefix white-text">account_circle</i>
+        <input id="icon_prefix" type="text" class="validate">
+        <label for="icon_prefix">Ім'я</label>
       </div>
-    </footer>
+      <div class="input-field col s6">
+        <i class="material-icons prefix white-text">mail</i>
+        <input id="icon_telephone" type="email" class="validate">
+        <label for="icon_telephone">E-mail</label>
+      </div>
+      <div class="input-field col s12">
+          <i class="material-icons prefix white-text">mode_edit</i>
+          <textarea id="icon_prefix2" type="text" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2">Повідомлення</label>
+        </div>
+    </div>
+  </form>
+
+          </div>
+      </div>
+      <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="">Anastasiia Kostiv</a>
+      </div>
+    </div>
+  </footer>
 
 
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-
-    <!-- Bootstrap Script  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js_vendor/holder.min.js"></script>
   </body>
 </html>
